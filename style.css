@@ -1,0 +1,88 @@
+
+/*Inicio estilo al doc html y al body*/
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Handlee', cursive;
+    font-size: 16pt;
+    background-color: #efefef;
+    padding: 10px;
+    margin: 0;
+}
+/*Fin estilo al doc html y al body*/
+
+/*Inicio estilo a la etiqueta h1 que contiene about me y al span*/
+h1{
+    font-size: 40pt;
+    color: #20bcd5;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+
+h1 span{
+    border: 4px dashed #20bcd5;
+    padding: 10px;
+}
+/*Fin estilo a la etiqueta h1 que contiene about me y al span*/
+
+/*Inicio estilo etiqueta parrafo*/
+p{
+    padding: 0;
+    margin: 0;
+}
+/*Fin estilo etiqueta parrafo*/
+
+/*Inicio estilo a la imagen*/
+.img-circle{
+    border: 3px solid white;
+    border-radius: 50%;  
+}
+/*Fin estilo a la imagen*/
+
+/*Inicio estilo a la etiqueta div con clase section*/
+.section{
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+/*Fin estilo a la etiqueta div con clase section*/
+
+/*Inicio estilo a la etiqueta div con id header para dar estilo a la imagen de fondo*/
+#header{
+  background-image: url(img/header2.jpg);
+  background-size: cover;
+}
+/*Fin estilo a la etiqueta div con id header*/
+
+/*Inicio estilo a la etiqueta div con id header que contiene a la img*/
+#header img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+/*Fin estilo a la etiqueta div con id header que contiene a la img*/
+
+/*Inicio estilo a la etiqueta div con id header que contiene una etiqueta p con el nombre Yazin Castaño Moreno*/
+#header p{
+    font-size: 30pt;
+    color: #20bcd5;
+    padding-top: 5px;
+    margin: 0;
+    font-weight:bold;
+    text-align: center;
+}
+/*Fin estilo a la etiqueta div con id header que contiene una etiqueta p*/
+
+/*Inicio estilo a la etiqueta p con class quote(citar)*/
+.quote{
+    font-size: 20pt;
+    text-align: right;
+    margin-top: 10px;
+}
+/*Fin estilo a la etiqueta p con class quote(citar)*/
